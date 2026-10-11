@@ -1,14 +1,13 @@
-# برای غزل 💙 | For Ghazal
+# For Ghazal 💙 | Happy Girl's Day
 
-یک هدیه دیجیتال و تعاملی: **دسته‌گل نیلوفرهای آبی** به مناسبت روز دختر برای **غزل**.
+An interactive digital bouquet of **Blue Lilies** celebrating **Ghazal** on Girl's Day.
 
-An interactive digital bouquet of blue lilies celebrating Ghazal on Girl's Day.
-
-### ویژگی‌ها (Features):
-- 🌸 شکوفه‌های نیلوفر آبی با جزئیات گیاه‌شناسی ظریف، پرچم‌های طلایی و شبنم‌های درخشان
-- ✨ افکت سه‌بعدی و شناور با حرکت ماوس / لمس صفحه
-- 🎵 نغمه‌های زلال سلستین و چنگ با وب‌آدیو (بدون نیاز به فایل صوتی خارجی)
-- 💌 نامه‌ی قلبی و اختصاصی برای غزل همراه با ابیات شاعرانه
+### ✨ Features:
+- 🌸 **Botanical Blue Lilies:** Multi-layered petals, ruffled edges, glowing veins, golden velvety anthers with pollen glow, and glistening dewdrops.
+- 🌌 **3D Parallax Tilt:** Gently tilts in 3D as you move your mouse or touch and drag on your phone.
+- 🎵 **Harmonic Celestial Chimes:** Built-in crystal chime synthesizer powered by Web Audio API (zero audio files needed).
+- 💌 **Dedicated Note & Verses:** Heartfelt letters and poetic quotes dedicated to Ghazal.
+- ✨ **Starlight Shower:** Interactive particles, blossoms, and golden stardust bursts on tap.
 
 ---
-Live Page: [https://amircj69.github.io/for-ghazal/](https://amircj69.github.io/for-ghazal/)
+🌐 **Live Interactive Website:** [https://amircj69.github.io/for-ghazal/](https://amircj69.github.io/for-ghazal/)

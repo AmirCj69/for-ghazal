@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>برای غزل 💙 | روز دختر مبارک</title>
+  <title>For Ghazal 💙 | Happy Girl's Day</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg-dark: #060b17;
@@ -27,7 +27,7 @@
     body {
       background: radial-gradient(circle at 50% 25%, #0f274a 0%, #081326 50%, #030712 100%);
       color: #f1f5f9;
-      font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       min-height: 100vh;
       overflow-x: hidden;
       display: flex;
@@ -40,8 +40,8 @@
     /* Ambient dynamic glow */
     .ambient-glow {
       position: fixed;
-      width: 450px;
-      height: 450px;
+      width: 480px;
+      height: 480px;
       border-radius: 50%;
       background: radial-gradient(circle, rgba(56, 189, 248, 0.18) 0%, rgba(30, 58, 138, 0.1) 45%, transparent 70%);
       top: 15%;
@@ -49,7 +49,7 @@
       transform: translate(-50%, -20%);
       pointer-events: none;
       z-index: 1;
-      filter: blur(40px);
+      filter: blur(45px);
       animation: pulse-ambient 7s ease-in-out infinite alternate;
     }
 
@@ -75,7 +75,7 @@
       z-index: 10;
       width: 100%;
       max-width: 580px;
-      padding: 24px 16px 20px;
+      padding: 26px 16px 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -86,43 +86,46 @@
     .badge {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      padding: 6px 16px;
+      gap: 8px;
+      padding: 6px 18px;
       background: rgba(56, 189, 248, 0.1);
       border: 1px solid rgba(56, 189, 248, 0.35);
       border-radius: 9999px;
       color: #7dd3fc;
       font-size: 0.85rem;
       font-weight: 500;
-      letter-spacing: 0.5px;
-      box-shadow: 0 0 15px rgba(56, 189, 248, 0.15);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      box-shadow: 0 0 16px rgba(56, 189, 248, 0.15);
       backdrop-filter: blur(8px);
-      animation: badge-shine 3s infinite;
     }
 
     .title {
-      font-size: 2rem;
+      font-size: 2.15rem;
       font-weight: 700;
-      margin-top: 12px;
+      margin-top: 14px;
       color: #ffffff;
-      line-height: 1.4;
-      text-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+      line-height: 1.35;
+      text-shadow: 0 0 24px rgba(56, 189, 248, 0.35);
     }
 
     .name-highlight {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
       background: linear-gradient(135deg, #7dd3fc 0%, #60a5fa 40%, #c084fc 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       display: inline-block;
-      font-weight: 700;
-      position: relative;
+      font-weight: 600;
+      font-size: 2.45rem;
+      vertical-align: middle;
     }
 
     .subtitle {
       font-size: 0.92rem;
       color: #94a3b8;
       margin-top: 6px;
-      max-width: 400px;
+      max-width: 440px;
       line-height: 1.6;
     }
 
@@ -187,16 +190,16 @@
       100% { transform: rotate(-1.8deg); }
     }
 
-    /* Card Box */
+    /* Glass Poetry Card */
     .glass-card {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 20px;
-      padding: 18px 22px;
+      padding: 18px 24px;
       backdrop-filter: blur(16px);
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.1);
       width: 100%;
-      max-width: 460px;
+      max-width: 480px;
       transition: transform 0.3s ease, border-color 0.3s ease;
     }
 
@@ -205,19 +208,19 @@
     }
 
     .poem-quote {
-      font-size: 1.05rem;
-      font-weight: 500;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.25rem;
+      font-style: italic;
       color: #e2e8f0;
-      line-height: 1.8;
+      line-height: 1.7;
       margin-bottom: 6px;
     }
 
-    .english-sub {
+    .script-sub {
       font-family: 'Alex Brush', cursive;
-      font-size: 1.45rem;
+      font-size: 1.55rem;
       color: #7dd3fc;
       letter-spacing: 0.5px;
-      direction: ltr;
       margin-top: 4px;
     }
 
@@ -226,7 +229,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      margin-top: 16px;
+      margin-top: 18px;
       justify-content: center;
       z-index: 15;
     }
@@ -303,7 +306,7 @@
       border-radius: 24px;
       width: 100%;
       max-width: 480px;
-      padding: 32px 28px;
+      padding: 34px 28px;
       text-align: center;
       box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6), 0 0 30px rgba(56, 189, 248, 0.2);
       transform: scale(0.9) translateY(20px);
@@ -318,7 +321,7 @@
     .close-btn {
       position: absolute;
       top: 16px;
-      left: 16px;
+      right: 16px;
       background: rgba(255, 255, 255, 0.08);
       border: 1px solid rgba(255, 255, 255, 0.15);
       color: #94a3b8;
@@ -339,43 +342,42 @@
     }
 
     .letter-title {
-      font-size: 1.45rem;
+      font-size: 1.5rem;
       font-weight: 700;
       color: #7dd3fc;
-      margin-bottom: 14px;
+      margin-bottom: 16px;
     }
 
     .letter-body {
       font-size: 0.98rem;
-      line-height: 2.1;
+      line-height: 1.9;
       color: #e2e8f0;
-      text-align: justify;
-      text-align-last: center;
-      margin-bottom: 20px;
+      margin-bottom: 22px;
     }
 
     .letter-signature {
-      font-size: 1.1rem;
+      font-family: 'Alex Brush', cursive;
+      font-size: 1.6rem;
       color: #38bdf8;
-      font-weight: 500;
       margin-top: 10px;
     }
 
     footer {
       position: relative;
       z-index: 10;
-      padding: 12px;
-      font-size: 0.78rem;
+      padding: 14px;
+      font-size: 0.8rem;
       color: #64748b;
-      letter-spacing: 0.3px;
+      letter-spacing: 0.4px;
     }
 
     /* Mobile tweaks */
     @media (max-width: 480px) {
-      .title { font-size: 1.65rem; }
+      .title { font-size: 1.7rem; }
+      .name-highlight { font-size: 1.95rem; }
       .bouquet-stage { height: 320px; }
-      .poem-quote { font-size: 0.95rem; }
-      .btn { padding: 8px 16px; font-size: 0.85rem; }
+      .poem-quote { font-size: 1.1rem; }
+      .btn { padding: 9px 16px; font-size: 0.85rem; }
     }
   </style>
 </head>
@@ -391,16 +393,16 @@
     <!-- Occasion Badge -->
     <div class="badge">
       <span>✨</span>
-      <span>روز دختر گرامی باد</span>
+      <span>Happy Girl's Day</span>
       <span>✨</span>
     </div>
 
     <!-- Main Title -->
     <h1 class="title">
-      دسته‌گل نیلوفرهای آبی برای <span class="name-highlight">غزل</span> 💙
+      A Bouquet of Blue Lilies for <span class="name-highlight">Ghazal</span> 💙
     </h1>
     <p class="subtitle">
-      روی هر شکوفه لمس کنید تا گلبرگ‌ها بدرخشند و نغمه‌ی اختصاصی‌شان را بنوازند
+      Touch any bloom to watch the petals illuminate with harmonious crystal chimes
     </p>
 
     <!-- 3D Interactive Bouquet Stage -->
@@ -408,7 +410,6 @@
       <div class="bouquet-3d-box" id="box3d">
         <svg class="bouquet-svg" viewBox="0 0 500 520" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
-            <!-- Petal Radial & Linear Shading -->
             <linearGradient id="deepPetalGrad" x1="0%" y1="100%" x2="100%" y2="0%">
               <stop offset="0%" stop-color="#0a1931"/>
               <stop offset="35%" stop-color="#153e75"/>
@@ -476,33 +477,24 @@
 
           <!-- ================= BACKGROUND FOLIAGE & STEMS ================= -->
           <g id="stemsGroup" stroke-linecap="round">
-            <!-- Left curved stem -->
             <path d="M 150 250 Q 190 350 245 470" stroke="url(#stemGrad)" stroke-width="7" fill="none"/>
-            <!-- Center strong stem -->
             <path d="M 250 180 Q 252 320 250 480" stroke="url(#stemGrad)" stroke-width="8" fill="none"/>
-            <!-- Right curved stem -->
             <path d="M 350 240 Q 310 350 255 470" stroke="url(#stemGrad)" stroke-width="7" fill="none"/>
-            <!-- Bud stem left -->
             <path d="M 175 140 Q 210 230 245 420" stroke="url(#stemGrad)" stroke-width="5" fill="none"/>
-            <!-- Bud stem right -->
             <path d="M 325 150 Q 290 240 255 420" stroke="url(#stemGrad)" stroke-width="5" fill="none"/>
           </g>
 
           <!-- Long Botanical Lily Leaves -->
           <g id="leavesGroup">
-            <!-- Deep sweeping left leaf -->
             <path d="M 245 430 C 160 410 70 340 40 270 C 65 295 140 370 245 405 Z" fill="url(#leafGrad)" opacity="0.95"/>
-            <!-- Deep sweeping right leaf -->
             <path d="M 255 430 C 340 410 430 340 460 270 C 435 295 360 370 255 405 Z" fill="url(#leafGrad)" opacity="0.95"/>
-            <!-- Mid-height left leaf with realistic fold -->
             <path d="M 245 370 C 170 310 110 220 90 160 C 120 210 190 290 245 345 Z" fill="url(#leafGrad)"/>
             <path d="M 90 160 Q 155 240 245 345" stroke="#34d399" stroke-width="1.5" fill="none" opacity="0.6"/>
-            <!-- Mid-height right leaf -->
             <path d="M 255 370 C 330 310 390 220 410 160 C 380 210 310 290 255 345 Z" fill="url(#leafGrad)"/>
             <path d="M 410 160 Q 345 240 255 345" stroke="#34d399" stroke-width="1.5" fill="none" opacity="0.6"/>
           </g>
 
-          <!-- Unopened Buds (Left & Right) with delicate blue blush -->
+          <!-- Buds (Left & Right) -->
           <g class="petal-group sway-breeze-subtle" onclick="triggerFlowerBloom(175, 140, 0)">
             <g transform="translate(175, 140) rotate(-28)">
               <path d="M 0 0 C -15 -25 -10 -55 0 -75 C 10 -55 15 -25 0 0 Z" fill="url(#mainPetalGrad)" stroke="#7dd3fc" stroke-width="0.8"/>
@@ -519,38 +511,31 @@
           <!-- ================= LEFT LILY BLOOM ================= -->
           <g class="petal-group sway-breeze" onclick="triggerFlowerBloom(150, 240, 2)" style="cursor: pointer;">
             <g transform="translate(150, 240) rotate(-24) scale(0.88)">
-              <!-- Outer/Back Petals -->
               <path d="M 0 0 C -55 -40 -80 -115 0 -140 C 20 -95 20 -40 0 0 Z" fill="url(#deepPetalGrad)" opacity="0.95"/>
               <path d="M 0 0 C 55 -40 80 -115 0 -140 C -20 -95 -20 -40 0 0 Z" fill="url(#deepPetalGrad)" opacity="0.95"/>
               <path d="M 0 0 C -95 -15 -135 -60 -120 -105 C -80 -80 -40 -40 0 0 Z" fill="url(#mainPetalGrad)"/>
               <path d="M 0 0 C 95 -15 135 -60 120 -105 C 80 -80 40 -40 0 0 Z" fill="url(#mainPetalGrad)"/>
-              <!-- Lower recurved petals -->
               <path d="M 0 0 C -70 30 -95 70 -80 95 C -45 70 -20 35 0 0 Z" fill="url(#deepPetalGrad)"/>
               <path d="M 0 0 C 70 30 95 70 80 95 C 45 70 20 35 0 0 Z" fill="url(#deepPetalGrad)"/>
               
-              <!-- Delicate papillae speckles -->
               <g fill="#0c1e3d" opacity="0.65">
                 <circle cx="-16" cy="-35" r="1.5"/><circle cx="-25" cy="-55" r="1.4"/><circle cx="-10" cy="-60" r="1.3"/>
                 <circle cx="16" cy="-35" r="1.5"/><circle cx="25" cy="-55" r="1.4"/><circle cx="10" cy="-60" r="1.3"/>
               </g>
 
-              <!-- Central white/cyan fluting midrib -->
               <path d="M 0 0 C -5 -50 0 -115 0 -135" stroke="#f0f9ff" stroke-width="1.8" stroke-linecap="round"/>
               <path d="M 0 0 C -45 -35 -95 -75 -115 -100" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round"/>
               <path d="M 0 0 C 45 -35 95 -75 115 -100" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round"/>
 
-              <!-- Stamens & Golden Velvety Anthers -->
               <g stroke="#fef08a" stroke-width="1.8" stroke-linecap="round">
                 <path d="M 0 0 Q -28 -40 -38 -68"/><ellipse cx="-38" cy="-68" rx="5" ry="3" fill="#f59e0b" stroke="#78350f" stroke-width="0.8" filter="url(#antherGlow)"/>
                 <path d="M 0 0 Q -10 -50 -12 -80"/><ellipse cx="-12" cy="-80" rx="5" ry="3" fill="#f59e0b" stroke="#78350f" stroke-width="0.8" filter="url(#antherGlow)"/>
                 <path d="M 0 0 Q 12 -50 18 -76"/><ellipse cx="18" cy="-76" rx="5" ry="3" fill="#f59e0b" stroke="#78350f" stroke-width="0.8" filter="url(#antherGlow)"/>
                 <path d="M 0 0 Q 35 -40 42 -64"/><ellipse cx="42" cy="-64" rx="5" ry="3" fill="#f59e0b" stroke="#78350f" stroke-width="0.8" filter="url(#antherGlow)"/>
-                <!-- Emerald Pistil -->
                 <path d="M 0 0 Q 2 -60 4 -92" stroke="#6ee7b7" stroke-width="2.5"/>
                 <circle cx="4" cy="-92" r="4.2" fill="#10b981"/>
               </g>
 
-              <!-- Dewdrop -->
               <ellipse cx="-45" cy="-80" rx="4" ry="3" fill="url(#dewDropGrad)"/>
             </g>
           </g>
@@ -558,60 +543,49 @@
           <!-- ================= RIGHT LILY BLOOM ================= -->
           <g class="petal-group sway-breeze-subtle" onclick="triggerFlowerBloom(350, 240, 3)" style="cursor: pointer;">
             <g transform="translate(350, 240) rotate(24) scale(0.88)">
-              <!-- Outer Petals -->
               <path d="M 0 0 C -55 -40 -80 -115 0 -140 C 20 -95 20 -40 0 0 Z" fill="url(#deepPetalGrad)" opacity="0.95"/>
               <path d="M 0 0 C 55 -40 80 -115 0 -140 C -20 -95 -20 -40 0 0 Z" fill="url(#deepPetalGrad)" opacity="0.95"/>
               <path d="M 0 0 C -95 -15 -135 -60 -120 -105 C -80 -80 -40 -40 0 0 Z" fill="url(#mainPetalGrad)"/>
               <path d="M 0 0 C 95 -15 135 -60 120 -105 C 80 -80 40 -40 0 0 Z" fill="url(#mainPetalGrad)"/>
-              <!-- Lower recurved petals -->
               <path d="M 0 0 C -70 30 -95 70 -80 95 C -45 70 -20 35 0 0 Z" fill="url(#deepPetalGrad)"/>
               <path d="M 0 0 C 70 30 95 70 80 95 C 45 70 20 35 0 0 Z" fill="url(#deepPetalGrad)"/>
 
-              <!-- Papillae -->
               <g fill="#0c1e3d" opacity="0.65">
                 <circle cx="-16" cy="-35" r="1.5"/><circle cx="-25" cy="-55" r="1.4"/><circle cx="-10" cy="-60" r="1.3"/>
                 <circle cx="16" cy="-35" r="1.5"/><circle cx="25" cy="-55" r="1.4"/><circle cx="10" cy="-60" r="1.3"/>
               </g>
 
-              <!-- Central veins -->
               <path d="M 0 0 C 5 -50 0 -115 0 -135" stroke="#f0f9ff" stroke-width="1.8" stroke-linecap="round"/>
               <path d="M 0 0 C -45 -35 -95 -75 -115 -100" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round"/>
               <path d="M 0 0 C 45 -35 95 -75 115 -100" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round"/>
 
-              <!-- Stamens & Anthers -->
               <g stroke="#fef08a" stroke-width="1.8" stroke-linecap="round">
                 <path d="M 0 0 Q -32 -40 -40 -64"/><ellipse cx="-40" cy="-64" rx="5" ry="3" fill="#f59e0b" stroke="#78350f" stroke-width="0.8" filter="url(#antherGlow)"/>
                 <path d="M 0 0 Q -12 -50 -16 -76"/><ellipse cx="-16" cy="-76" rx="5" ry="3" fill="#f59e0b" stroke="#78350f" stroke-width="0.8" filter="url(#antherGlow)"/>
                 <path d="M 0 0 Q 10 -50 14 -80"/><ellipse cx="14" cy="-80" rx="5" ry="3" fill="#f59e0b" stroke="#78350f" stroke-width="0.8" filter="url(#antherGlow)"/>
                 <path d="M 0 0 Q 28 -40 38 -68"/><ellipse cx="38" cy="-68" rx="5" ry="3" fill="#f59e0b" stroke="#78350f" stroke-width="0.8" filter="url(#antherGlow)"/>
-                <!-- Pistil -->
                 <path d="M 0 0 Q -2 -60 -4 -92" stroke="#6ee7b7" stroke-width="2.5"/>
                 <circle cx="-4" cy="-92" r="4.2" fill="#10b981"/>
               </g>
 
-              <!-- Dewdrop -->
               <ellipse cx="42" cy="-75" rx="4" ry="3" fill="url(#dewDropGrad)"/>
             </g>
           </g>
 
-          <!-- ================= GRAND CENTER BLUE LILY (SHOWSTOPPER) ================= -->
+          <!-- ================= GRAND CENTER BLUE LILY ================= -->
           <g class="petal-group" onclick="triggerFlowerBloom(250, 180, 4)" style="cursor: pointer;">
             <g transform="translate(250, 180) scale(1.15)">
-              <!-- Deep Rear Petals -->
               <path d="M 0 0 C -45 -55 -60 -130 0 -155 C 60 -130 45 -55 0 0 Z" fill="url(#deepPetalGrad)"/>
               <path d="M 0 0 C -75 -35 -135 -85 -115 -130 C -60 -105 -25 -55 0 0 Z" fill="url(#mainPetalGrad)"/>
               <path d="M 0 0 C 75 -35 135 -85 115 -130 C 60 -105 25 -55 0 0 Z" fill="url(#mainPetalGrad)"/>
               
-              <!-- Front Lateral Flaring Petals with Ruffled Edges -->
               <path d="M 0 0 C -105 0 -145 -30 -130 -70 C -85 -55 -40 -20 0 0 Z" fill="url(#lightPetalGrad)" opacity="0.95"/>
               <path d="M 0 0 C 105 0 145 -30 130 -70 C 85 -55 40 -20 0 0 Z" fill="url(#lightPetalGrad)" opacity="0.95"/>
               
-              <!-- Graceful Drooping Lower Petals -->
               <path d="M 0 0 C -60 45 -90 90 -60 110 C -35 75 -15 40 0 0 Z" fill="url(#deepPetalGrad)"/>
               <path d="M 0 0 C 60 45 90 90 60 110 C 35 75 15 40 0 0 Z" fill="url(#deepPetalGrad)"/>
               <path d="M 0 0 C -20 50 0 95 0 115 C 0 95 20 50 0 0 Z" fill="url(#mainPetalGrad)"/>
 
-              <!-- Radiant Papillae Speckles -->
               <g fill="#091b36" opacity="0.75">
                 <circle cx="-16" cy="-35" r="1.8"/><circle cx="-25" cy="-55" r="1.6"/><circle cx="-12" cy="-70" r="1.4"/>
                 <circle cx="-32" cy="-45" r="1.5"/><circle cx="-18" cy="-85" r="1.3"/>
@@ -620,14 +594,12 @@
                 <circle cx="0" cy="-40" r="1.7"/><circle cx="-4" cy="-55" r="1.5"/><circle cx="4" cy="-55" r="1.5"/>
               </g>
 
-              <!-- Raised Glowing Midrib Veins -->
               <path d="M 0 0 C 0 -50 0 -120 0 -150" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" filter="url(#bloomGlow)"/>
               <path d="M 0 0 C -45 -35 -95 -90 -110 -125" stroke="#e0f2fe" stroke-width="1.8" stroke-linecap="round"/>
               <path d="M 0 0 C 45 -35 95 -90 110 -125" stroke="#e0f2fe" stroke-width="1.8" stroke-linecap="round"/>
               <path d="M 0 0 C -45 40 -75 80 -55 105" stroke="#93c5fd" stroke-width="1.5" stroke-linecap="round"/>
               <path d="M 0 0 C 45 40 75 80 55 105" stroke="#93c5fd" stroke-width="1.5" stroke-linecap="round"/>
 
-              <!-- Prominent Curved Stamens & Golden Velvety Anthers -->
               <g stroke="#fef08a" stroke-width="2.2" stroke-linecap="round">
                 <path d="M 0 0 Q -35 -45 -45 -78"/><ellipse cx="-45" cy="-78" rx="6" ry="3.8" fill="#f59e0b" stroke="#78350f" stroke-width="1" filter="url(#antherGlow)"/>
                 <path d="M 0 0 Q -18 -60 -18 -100"/><ellipse cx="-18" cy="-100" rx="6" ry="3.8" fill="#f59e0b" stroke="#78350f" stroke-width="1" filter="url(#antherGlow)"/>
@@ -636,12 +608,10 @@
                 <path d="M 0 0 Q -5 -40 -8 -70"/><ellipse cx="-8" cy="-70" rx="5" ry="3.2" fill="#fbbf24" stroke="#78350f" stroke-width="0.8"/>
                 <path d="M 0 0 Q 5 -40 8 -70"/><ellipse cx="8" cy="-70" rx="5" ry="3.2" fill="#fbbf24" stroke="#78350f" stroke-width="0.8"/>
 
-                <!-- Regal Pistil with Emerald Stigma -->
                 <path d="M 0 0 Q 0 -65 0 -115" stroke="#86efac" stroke-width="3"/>
                 <circle cx="0" cy="-115" r="5.5" fill="#10b981" stroke="#a7f3d0" stroke-width="1.2"/>
               </g>
 
-              <!-- Glistening Dewdrops -->
               <ellipse cx="-28" cy="-90" rx="5" ry="3.5" fill="url(#dewDropGrad)"/>
               <ellipse cx="65" cy="-45" rx="4.5" ry="3.2" fill="url(#dewDropGrad)"/>
               <ellipse cx="5" cy="55" rx="3.5" ry="2.5" fill="url(#dewDropGrad)"/>
@@ -650,15 +620,10 @@
 
           <!-- ================= SILK RIBBON BOW ================= -->
           <g transform="translate(250, 440)">
-            <!-- Cascading tails -->
             <path d="M -12 15 C -35 55 -60 80 -75 110 C -55 95 -30 65 -5 25 Z" fill="url(#ribbonSilk)"/>
             <path d="M 12 15 C 35 55 60 80 75 110 C 55 95 30 65 5 25 Z" fill="url(#ribbonSilk)"/>
-            
-            <!-- Broad Silk Loops -->
             <path d="M 0 0 C -45 -35 -85 5 -35 28 C -10 15 0 8 0 0 Z" fill="url(#ribbonSilk)" stroke="#93c5fd" stroke-width="1"/>
             <path d="M 0 0 C 45 -35 85 5 35 28 C 10 15 0 8 0 0 Z" fill="url(#ribbonSilk)" stroke="#93c5fd" stroke-width="1"/>
-            
-            <!-- Center Knot with gold highlight -->
             <ellipse cx="0" cy="8" rx="12" ry="9" fill="#1d4ed8" stroke="#60a5fa" stroke-width="1.6"/>
             <circle cx="0" cy="8" r="3.5" fill="#fde047" opacity="0.85"/>
           </g>
@@ -669,10 +634,10 @@
     <!-- Dedicated Love & Poetry Card -->
     <div class="glass-card">
       <p class="poem-quote" id="poemText">
-        «تو مثل یک غزلِ نابی؛ به لطافت گلبرگ نیلوفر و به زلالی آسمانِ آبی. روزت مبارک، غزل جان 💙»
+        "Like rare blue lilies blooming in twilight, Ghazal embodies quiet elegance, wonder, and grace. Happy Girl's Day! 💙"
       </p>
-      <div class="english-sub">
-        For Ghazal &bull; Rare &amp; Beautiful
+      <div class="script-sub">
+        Dedicated to Ghazal &bull; Always Radiant
       </div>
     </div>
 
@@ -680,22 +645,22 @@
     <div class="toolbar">
       <button class="btn btn-primary" onclick="sprinkleStarlight()">
         <span>✨</span>
-        <span>باران ستاره</span>
+        <span>Starlight Shower</span>
       </button>
 
       <button class="btn btn-secondary" onclick="playCelestialChimes()">
         <span>🎵</span>
-        <span id="soundLabel">نغمه‌ی آسمانی</span>
+        <span>Play Chimes</span>
       </button>
 
       <button class="btn btn-secondary" onclick="openModal()">
         <span>💌</span>
-        <span>نامه‌ای برای غزل</span>
+        <span>Letter for Ghazal</span>
       </button>
 
       <button class="btn btn-secondary" onclick="nextPoem()">
         <span>🌸</span>
-        <span>بیت بعدی</span>
+        <span>Next Verse</span>
       </button>
     </div>
   </div>
@@ -705,21 +670,20 @@
     <div class="letter-card">
       <button class="close-btn" onclick="closeModal()">&times;</button>
       <div style="font-size: 2.2rem; margin-bottom: 8px;">💐</div>
-      <h2 class="letter-title">روز دختر مبارک، غزل عزیز 💙</h2>
+      <h2 class="letter-title">Happy Girl's Day, Ghazal 💙</h2>
       <div class="letter-body">
-        نیلوفر آبی نماد آرامش، نجابت، خرد و زیبایی‌های کمیاب است.
-        در روز دختر، این دسته‌گل همیشه شاداب تقدیم به تو، که حضورت درست مثل نامت،
-        شورانگیز و دلنشین مانند یک «غزل» است.
+        Blue lilies are timeless emblems of tranquility, wisdom, dignity, and rare beauty.
+        On this special day, this digital bouquet blooms eternally for you.
         <br><br>
-        امیدوارم در هر فصلی از زندگی‌ات، مثل زیباترین شکوفه‌ها با اقتدار و لطافت بدرخشی،
-        رویاهایت یکی پس از دیگری به حقیقت بپیوندند و همواره لبخند بر لب داشته باشی.
+        Just like your name—a gentle and soul-stirring poetic ode—your presence brings warmth, serenity, and inspiration.
+        May your journey be forever brightened by joy, sweet laughter, and effortless dreams coming true. Always keep blooming in your own pure, celestial light.
       </div>
-      <div class="letter-signature">با تمام آرزوهای زیبا و قلبی ✨</div>
+      <div class="letter-signature">With all the warmest wishes from the heart ✨</div>
     </div>
   </div>
 
   <footer>
-    دسته‌گل مجازی نیلوفرهای آبی • تقدیم با عشق به غزل
+    Interactive Blue Lilies Bouquet &bull; Dedicated with love to Ghazal
   </footer>
 
   <script>
@@ -769,7 +733,6 @@
         const ctx = getAudioContext();
         const now = ctx.currentTime + timeOffset;
 
-        // Fundamental oscillator (crystal bell)
         const osc1 = ctx.createOscillator();
         const osc2 = ctx.createOscillator();
         const gainNode = ctx.createGain();
@@ -778,7 +741,7 @@
         osc1.frequency.setValueAtTime(freq, now);
 
         osc2.type = 'triangle';
-        osc2.frequency.setValueAtTime(freq * 2.01, now); // soft octave chime harmonic
+        osc2.frequency.setValueAtTime(freq * 2.01, now);
 
         gainNode.gain.setValueAtTime(0, now);
         gainNode.gain.linearRampToValueAtTime(0.18, now + 0.04);
@@ -845,7 +808,6 @@
         c.shadowBlur = 10;
 
         if (this.type === 'star') {
-          // 4-pointed radiant star
           c.beginPath();
           for (let i = 0; i < 4; i++) {
             c.lineTo(Math.cos(i * Math.PI / 2) * this.size * 2.2, Math.sin(i * Math.PI / 2) * this.size * 2.2);
@@ -854,7 +816,6 @@
           c.closePath();
           c.fill();
         } else {
-          // Floating glowing petal
           c.beginPath();
           c.ellipse(0, 0, this.size * 2.5, this.size * 1.2, 0, 0, Math.PI * 2);
           c.fill();
@@ -876,18 +837,15 @@
     }
     renderLoop();
 
-    // Spawn sparkles at flower position when tapped
     function triggerFlowerBloom(svgX, svgY, noteIndex) {
       const rect = stage.getBoundingClientRect();
       const clientX = rect.left + (svgX / 500) * rect.width;
       const clientY = rect.top + (svgY / 520) * rect.height;
 
-      // Burst particles
       for (let i = 0; i < 24; i++) {
         particles.push(new Starlight(clientX, clientY, i % 2 === 0 ? '#38bdf8' : '#fde047', i % 3 === 0 ? 'petal' : 'star'));
       }
 
-      // Play designated chime
       const note = scale[noteIndex % scale.length];
       playTone(note, 0, 1.8);
       playTone(note * 1.5, 0.08, 1.5);
@@ -906,7 +864,6 @@
       }
     }
 
-    // Window click generates stardust anywhere
     window.addEventListener('click', (e) => {
       if (e.target.closest('button') || e.target.closest('.letter-card')) return;
       for (let i = 0; i < 8; i++) {
@@ -915,12 +872,12 @@
       playTone(scale[Math.floor(Math.random() * scale.length)], 0, 1.2);
     });
 
-    // ================= SWEET POEMS FOR GHAZAL =================
+    // ================= POEMS FOR GHAZAL =================
     const poems = [
-      "«تو مثل یک غزلِ نابی؛ به لطافت گلبرگ نیلوفر و به زلالی آسمانِ آبی. روزت مبارک، غزل جان 💙»",
-      "«نیلوفر آبی در سکوت و با وقار می‌شکفد؛ درست مثل غزل که مظهر نجابت و زیبایی است.»",
-      "«بگذار جهان هر ساز که می‌خواهد بزند، تو نغمه‌ی زلال و غزل عاشقانه‌ی خودت باش ✨»",
-      "«امروز روز توست؛ شاد باش، به آرزوهایت لبخند بزن و مثل همیشه بدرخش 🌸»"
+      '"Like rare blue lilies blooming in twilight, Ghazal embodies quiet elegance, wonder, and grace. Happy Girl\'s Day! 💙"',
+      '"A lily never competes with the flowers next to it; it simply blooms in its own pure, celestial light."',
+      '"Ghazal — as gentle as an ode of poetry, and as timeless as the blue horizon ✨"',
+      '"May every dream you nurture blossom with brilliance, serenity, and joy 🌸"'
     ];
 
     let currentPoemIdx = 0;
@@ -958,7 +915,6 @@
       }
     }
 
-    // Auto subtle sparkles on initial load
     window.addEventListener('load', () => {
       setTimeout(() => {
         for (let i = 0; i < 15; i++) {
